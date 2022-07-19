@@ -1,0 +1,16 @@
+{
+  "name": "grkvnko/testguestbook",
+  "description": "test guestbook",
+  "license": "proprietary",
+  "autoload": {
+    "psr-4": {
+      "App\\": "App"
+    }
+  },
+  "require": {
+    "php": ">=7.3",
+    "ext-mysqli": "*",
+    "ext-json": "*",
+    "ext-pdo": "*"
+  }
+}

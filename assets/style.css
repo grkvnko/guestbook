@@ -1,0 +1,66 @@
+
+.logo {
+    width: 250px;
+    margin: 10px;
+}
+
+.legend {
+    display: block;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.comments {
+
+}
+.comments__title {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.comments__wrap {
+    padding: 10px 0;
+}
+
+.comments__body {
+    background: #ededed;
+    margin: 10px 0;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+.comment__title {
+    font-size: 14px;
+    font-weight: bold;
+    color: #3c3c3c;
+}
+.comment__body {
+    font-size: 16px;
+    word-wrap: break-word;
+}
+.comment__name {
+    font-size: 14px;
+    font-weight: bold;
+    color: #313131;
+}
+.comment__mail {
+    margin: 0 5px;
+    font-style: italic;
+    font-size: 12px;
+    color: #868592;
+}
+.comment__date {
+
+    font-size: 12px;
+    color: #868592;
+}
+.comment__autor {
+    text-align: left;
+}
+#commentForm {
+    width: 70%;
+    margin: 0 auto;
+}
+.footer_social {
+    text-align: right;
+    margin: 30px 0;
+}
