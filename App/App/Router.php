@@ -19,7 +19,7 @@ class Router
         if(strlen($cut_request_uri) > 1) {
             $routes_arr = explode('/', $cut_request_uri);
             array_shift($routes_arr);
-            $route_way = 'App\Controllers\\' . array_shift($routes_arr) . 'Controller';
+            $route_way = 'App\Controllers\\' . ucwords(array_shift($routes_arr)) . 'Controller';
             $route_method = array_shift($routes_arr);
         } else {
             $route_way = 'App\Controllers\StartController';
